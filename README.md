@@ -1,6 +1,7 @@
 # Mini Project
  Title: Enhancing E-commerce Recommendations using Sequential Deep Learning
- Abstract: E-commerce websites uses recommendation systems to boost sales by guiding users to relevant products
+ 
+ E-commerce websites uses recommendation systems to boost sales by guiding users to relevant products
  based on their preferences and browsing history as it enhances the overall shopping experience and
  customer satisfaction. Collaborative-Based Sequential Recommendation systems predict a user’s next item
  based on their historical behavior sequence, combining long-term and short-term preferences. These
