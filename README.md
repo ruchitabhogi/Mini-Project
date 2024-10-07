@@ -50,3 +50,4 @@ The dataset used for this project is stored in the `/content` directory and cont
 
 ## Results
 Once the code is executed, the model will provide a list of recommended books for each user in the dataset.
+https://github.com/user-attachments/assets/8d58f0ca-80cc-4488-a153-5ea2d65810e3
