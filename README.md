@@ -6,10 +6,8 @@ This project implements a Sequential Recommendation System using a dataset of bo
 
 The project leverages a dataset containing user-item interactions and builds a machine learning model to provide personalized recommendations in a sequential manner.
 
-## Project Features
-- Data Preprocessing: Efficiently handles and processes the dataset for building recommendations.
-- Model Training: Trains a model using sequential data to recommend items.
-- Recommendation Generation: Generates a list of recommended items for users based on their previous interactions.
+# Recommendation Generation:
+Generates a list of recommended books for user based on their previous interactions.
 
 ## Dataset
 The dataset used for this project is stored in the `/content` directory and contains the following files:
@@ -18,14 +16,13 @@ The dataset used for this project is stored in the `/content` directory and cont
 
 ## Project Structure
 ```
+Inside Sequential Recommendation.ipynb place the files in the below structure # Main file to run the recommendation system
 /content
 │
 ├── amazon.csv  # Main dataset file
 ├── datasets
-│   └── books
-│       └── seq # Sequence data for book recommendations
-│
-└── Sequential Recommendation.ipynb # Main file to run the recommendation system
+     └── books
+      └── seq # Sequence data for book recommendations
 ```
 
 ## How to Run the Project
@@ -35,7 +32,7 @@ The dataset used for this project is stored in the `/content` directory and cont
    git clone https://github.com/ruchitabhogi/Mini-Project.git
    ```
 
-2. Upload the dataset files to the appropriate directories:
+2. Upload the dataset files to the appropriate directories inside Sequential Recommendation.ipynb file:
    - `/content/amazon.csv`
    - `/content/datasets/books/seq`
 
@@ -49,7 +46,7 @@ The dataset used for this project is stored in the `/content` directory and cont
 5. Run the notebook cells in sequence to preprocess the data, train the model, and generate recommendations.
 
 ## Results
-Once the code is executed, the model will provide a list of recommended books for each user in the dataset.
+Once the User's previously read books are entered, the model will provides a list of recommended books for the user in the dataset.
 
 
 https://github.com/user-attachments/assets/8d58f0ca-80cc-4488-a153-5ea2d65810e3
